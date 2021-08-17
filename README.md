@@ -30,9 +30,16 @@ static string Encrypt(string value)//encrypting function
             }
         }
 ```
+
+When Extracting data from Tables
+
+```c#
+
  using System.Text.RegularExpressions;
  
  whatever the string your getting back from database after you saved it there = Regex.Replace(yourstringvariable, @"\s", "");
+ 
+ ```
  
  //in database after you save a string ex: "vishwa" its 6 character and you give varchar(100) right what happen is it will be saved like vishwa+"94spaces" which is a pain
  this is the way i figured to remove that spaces.maybe theres a setting to stop keeping spaces i didn't figured yet?
