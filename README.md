@@ -41,7 +41,7 @@ When Extracting data from Tables
  
  ```
  
- //in database after you save a string ex: "vishwa" its 6 character and you give varchar(100) right what happen is it will be saved like vishwa+"94spaces" which is a pain
+ In database after you save a string ex: "vishwa" its 6 character and you give varchar(100) right what happen is it will be saved like vishwa+"94spaces" which is a pain
  this is the way i figured to remove that spaces.maybe theres a setting to stop keeping spaces i didn't figured yet?
  
  
