@@ -15,6 +15,7 @@ day by day but not really easy.
 Using a application like "salt" you can tighten the md5 hash its a string of characters that you can add to 
 your username or password or whatever.
 
+<span style="color:orange;">
 Funtion to hash a string.
 
 using System.Security.Cryptography
@@ -29,7 +30,7 @@ static string Encrypt(string value)//encrypting function
             }
         }
         
-  
+ </span>  
  using System.Text.RegularExpressions;
  
  whatever the string your getting back from database after you saved it there = Regex.Replace(yourstringvariable, @"\s", "");
