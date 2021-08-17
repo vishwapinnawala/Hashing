@@ -15,9 +15,9 @@ day by day but not really easy.
 Using a application like "salt" you can tighten the md5 hash its a string of characters that you can add to 
 your username or password or whatever.
 
-```javascript
-Funtion to hash a string.
 
+Funtion to hash a string.
+```c#
 using System.Security.Cryptography
 
 static string Encrypt(string value)//encrypting function
